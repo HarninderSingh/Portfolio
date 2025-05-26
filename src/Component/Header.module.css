@@ -1,0 +1,53 @@
+.header {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+  padding: 1.2rem 1.2rem;
+  margin: 1rem 0 0.7rem 0;
+  max-width: 98vw;
+  width: 100%;
+  color: #1a2a4d;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-align: center;
+}
+
+.header h1 {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.header .contact-info {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.header .contact-info a {
+  color: #2a4d8f;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.header button {
+  margin-top: 0.7rem;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  border: none;
+  background: #2a4d8f;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.header button:hover {
+  background: #1a2a4d;
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 0.7rem 0.3rem;
+    max-width: 100vw;
+  }
+}

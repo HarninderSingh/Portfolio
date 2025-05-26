@@ -1,0 +1,69 @@
+.projects {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+  padding: 1.2rem 1.2rem;
+  margin: 0.7rem 0 1.2rem 0;
+  max-width: 98vw;
+  width: 100%;
+}
+
+.projects h2 {
+  color: #2a4d8f;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.projects button {
+  padding: 0.2rem 0.8rem;
+  border-radius: 16px;
+  border: none;
+  background: #2a4d8f;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+}
+
+.projects button:hover {
+  background: #1a2a4d;
+}
+
+.projects ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.projects li {
+  margin-bottom: 1rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.projects li:last-child {
+  border-bottom: none;
+}
+
+.projects strong {
+  color: #1a2a4d;
+  font-size: 1.05rem;
+}
+
+.projects .tech {
+  color: #2a4d8f;
+  font-size: 0.98rem;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .projects {
+    padding: 0.7rem 0.3rem;
+    max-width: 100vw;
+  }
+}
