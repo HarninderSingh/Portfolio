@@ -24,8 +24,8 @@ Showcases education, skills, experience, and projects with a clean, professional
 
 1. **Clone the repo:**
    ```sh
-   git clone https://github.com/HarninderSingh/portfolio.git
-   cd portfolio
+   git clone https://github.com/HarninderSingh/Portfolio.git
+   cd Portfolio
    ```
 
 2. **Install dependencies:**
