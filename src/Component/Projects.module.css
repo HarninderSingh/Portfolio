@@ -1,15 +1,16 @@
 .projects {
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+  background: var(--bg-card);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
   padding: 1.2rem 1.2rem;
   margin: 0.7rem 0 1.2rem 0;
   max-width: 98vw;
   width: 100%;
+  color: var(--text-main);
 }
 
 .projects h2 {
-  color: #2a4d8f;
+  color: var(--text-heading);
   font-size: 1.1rem;
   font-weight: 700;
   margin-bottom: 0.7rem;
@@ -22,7 +23,7 @@
   padding: 0.2rem 0.8rem;
   border-radius: 16px;
   border: none;
-  background: #2a4d8f;
+  background: var(--text-heading);
   color: #fff;
   font-weight: 500;
   cursor: pointer;
@@ -31,7 +32,7 @@
 }
 
 .projects button:hover {
-  background: #1a2a4d;
+  background: var(--text-subheading);
 }
 
 .projects ul {
@@ -51,12 +52,12 @@
 }
 
 .projects strong {
-  color: #1a2a4d;
+  color: var(--text-subheading);
   font-size: 1.05rem;
 }
 
-.projects .tech {
-  color: #2a4d8f;
+.tech {
+  color: var(--text-heading);
   font-size: 0.98rem;
   font-weight: 500;
 }

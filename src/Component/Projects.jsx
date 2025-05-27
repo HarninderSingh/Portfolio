@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
+import sectionStyles from './Section.module.css';
 import styles from './Projects.module.css';
 
 function Projects({ projects }) {
   const [showProjects, setShowProjects] = useState(true);
 
   return (
-    <section className={styles.projects}>
+    <section className={`${sectionStyles.section} ${styles.projects}`}>
       <h2>
         Projects
         <button onClick={() => setShowProjects(!showProjects)}>
@@ -19,7 +20,7 @@ function Projects({ projects }) {
               <strong>{project.title}</strong>
               <ul>
                 <li>{project.description}</li>
-                <li><strong>Tech:</strong> {project.tech}</li>
+                <li className={styles.tech}><strong>Tech:</strong> {project.tech}</li>
                 <li>{project.details}</li>
               </ul>
             </li>

@@ -1,9 +1,10 @@
 import React from 'react';
+import sectionStyles from './Section.module.css';
 import styles from './Contact.module.css';
 
 function Contact() {
   return (
-    <section className={styles.contact}>
+    <section className={`${sectionStyles.section} ${styles.contact}`}>
       <h2>Contact</h2>
       <p>Harninder Singh</p>
       <p>Phone: 437-484-4639</p>

@@ -1,12 +1,12 @@
 .header {
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+  background: var(--bg-card);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
   padding: 1.2rem 1.2rem;
   margin: 1rem 0 0.7rem 0;
   max-width: 98vw;
   width: 100%;
-  color: #1a2a4d;
+  color: var(--text-main);
   font-family: 'Segoe UI', Arial, sans-serif;
   text-align: center;
 }
@@ -15,34 +15,35 @@
   margin: 0 0 0.3rem 0;
   font-size: 1.7rem;
   font-weight: 700;
+  color: var(--text-heading);
 }
 
-.header .contact-info {
+.contact-info {
   font-size: 1rem;
-  color: #333;
+  color: var(--text-main);
   margin-bottom: 0.5rem;
 }
 
-.header .contact-info a {
-  color: #2a4d8f;
+.contact-info a {
+  color: var(--text-heading);
   text-decoration: none;
   margin: 0 0.5rem;
 }
 
-.header button {
+button {
   margin-top: 0.7rem;
   padding: 0.3rem 1rem;
   border-radius: 20px;
   border: none;
-  background: #2a4d8f;
+  background: var(--text-heading);
   color: #fff;
   font-weight: 500;
   cursor: pointer;
   transition: background 0.2s;
 }
 
-.header button:hover {
-  background: #1a2a4d;
+button:hover {
+  background: var(--text-subheading);
 }
 
 @media (max-width: 600px) {

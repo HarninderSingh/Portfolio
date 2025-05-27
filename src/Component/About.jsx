@@ -1,9 +1,10 @@
 import React from 'react';
+import sectionStyles from './Section.module.css';
 import styles from './About.module.css';
 
 function About() {
   return (
-    <section className={styles.about}>
+    <section className={`${sectionStyles.section} ${styles.about}`}>
       <h2>About Me</h2>
       <p>
         Computer Software and Database Development student at Loyalist College with a strong foundation in programming, troubleshooting, and access control systems. Hands-on experience building portfolio projects using modern frameworks such as .NET, Spring Boot, and React.
